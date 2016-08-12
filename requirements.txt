@@ -1,7 +1,5 @@
 --index-url https://pypi.python.org/simple/
 
-git+git://github.com/GeoNode/geonode.git@290afca3654cee0b65a1d9b8f244ab22a7d82704#egg=geonode
-git+git://github.com/boundlessgeo/django-exchange-maploom.git@f77fd27dc0e963a320e5086683c4d36683d48203#egg=django-maploom
 dj-database-url==0.4.1
 django-storages==1.1.8
 boto==2.38.0
@@ -20,7 +18,8 @@ gunicorn==19.4.5
 corsa==0.1.2
 python-resize-image==1.1.10
 mapproxy==1.9.0
-git+git://github.com/terranodo/django-mapproxy.git@2016-07-27#egg=djmp
-git+git://github.com/cga-harvard/HHypermap.git@2016-07-27#egg=django-registry
-git+git://github.com/geopython/pycsw.git@1525e70d36e363a856f03988ceb1598ba00d87f0#egg=pycsw
-pdb
+djmp==0.2.8
+django-registry==0.2.14
+pycsw-hypermap==2.1-dev
+django-terranodo-maploom==1.5.5
+geonode-hypermap==2.4.dev20160815194800
