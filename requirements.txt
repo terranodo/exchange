@@ -30,4 +30,8 @@ elasticsearch==1.9.0
 pylibmc==1.5.1
 mapproxy==1.9.0
 djmp==0.2.8
-django-registry==0.2.23
+
+# Get django-registry 0.3.2 from a tag.
+# Switch to pypi when https://github.com/cga-harvard/HHypermap/issues/183
+# is fixed.
+git+git://github.com/cga-harvard/HHypermap@0.3.2#egg=django-registry
